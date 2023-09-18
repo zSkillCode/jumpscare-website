@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Redirecting...</title>
+
+		<!-- Open Graph props -->
+		<meta property="og:title" content="Redirecting to file..." />
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="styles/main.css" />
+		<link rel="stylesheet" type="text/css" href="styles/redirect.css" />
+		<link rel="stylesheet" type="text/css" href="styles/spinner.css" />
+		<link rel="stylesheet" type="text/css" href="styles/video.css" />
+
+		<!-- scripts -->
+		<script defer type="module" src="script.js"></script>
+	</head>
+	<body>
+		<main class="main">
+			<!-- Fake redirect -->
+			<section class="redirect-wrapper">
+				<div class="redirect">
+					<p class="redirect--heading">
+						You will be redirected
+						<span class="redirect--counter">in 5</span>
+					</p>
+
+					<p class="redirect--subheading">
+						Click <a class="redirect--link" href="">here</a> if you were not
+						redirected automatically.
+					</p>
+				</div>
+			</section>
+			<!-- Spinner -->
+			<section class="spinner-wrapper hidden">
+				<div class="spinner">
+					<div></div>
+					<div></div>
+				</div>
+			</section>
+			<!-- Video  -->
+			<section class="video-wrapper hidden">
+				<div class="shield hidden"></div>
+				<video class="video" src="assets/video.mp4" loop></video>
+			</section>
+		</main>
+	</body>
+</html>

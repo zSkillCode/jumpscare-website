@@ -1,0 +1,49 @@
+.redirect-wrapper {
+	height: 100%;
+
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.redirect {
+	transform: translateY(-50px);
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 25px;
+
+	color: #e5dada;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.redirect--heading {
+	font-size: 32px;
+}
+
+.redirect--subheading {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+	.redirect--heading {
+		font-size: 26px;
+	}
+
+	.redirect--subheading {
+		font-size: 16px;
+	}
+}
+
+.redirect--link:link,
+.redirect--link:visited {
+	color: rgba(160, 168, 243, 0.85);
+}
+
+.redirect--link:hover,
+.redirect--link:active {
+	color: #fff;
+}

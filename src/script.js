@@ -69,7 +69,7 @@ redirectLink.addEventListener('click', event => {
 });
 
 // GO FULLSCREEN ON VIDEO CLICK
-video.addEventListener('click', fullscreenVideo);
+shield.addEventListener('click', fullscreenVideo);
 
 // DON'T ALLOW TO LEAVE :D
 window.onbeforeunload = () => '';
